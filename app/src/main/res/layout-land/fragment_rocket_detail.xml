@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Rocket Name -->
+        <TextView
+            android:id="@+id/tvRocketName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="Rocket Name"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etRocketName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Rocket Name" />
+
+        <!-- Rocket Type -->
+        <TextView
+            android:id="@+id/tvRocketType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type: Heavy-lift"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etRocketType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Rocket Type" />
+
+        <!-- Country -->
+        <TextView
+            android:id="@+id/tvCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country: USA"
+            android:textColor="@android:color/holo_blue_dark"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Country" />
+
+        <!-- Company -->
+        <TextView
+            android:id="@+id/tvCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company: SpaceX"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Company" />
+
+        <!-- Cost Per Launch -->
+        <TextView
+            android:id="@+id/tvCostPerLaunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost per launch: $62M"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etCostPerLaunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Cost Per Launch" />
+
+        <!-- Success Rate -->
+        <TextView
+            android:id="@+id/tvSuccessRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success Rate: 95%"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etSuccessRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Success Rate" />
+
+        <!-- Wikipedia -->
+        <TextView
+            android:id="@+id/tvWikipedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wikipedia"
+            android:textColor="@android:color/holo_blue_dark"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etWikipedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Wikipedia Link" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: Falcon Heavy is the most powerful rocket."
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Rocket Description" />
+
+        <!-- Dimensions -->
+        <TextView
+            android:id="@+id/tvDimensions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dimensions: Height 70m, Diameter 12m"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etDimensions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Rocket Dimensions" />
+
+        <Button
+            android:id="@+id/btnEditRocket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Rocket"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnSaveRocket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnDeleteRocket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Rocket"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
