@@ -161,7 +161,6 @@ class RocketDetailFragment : Fragment(R.layout.fragment_rocket_detail) {
 
                         btnEditRocket.visibility = View.VISIBLE
                         btnDeleteRocket.visibility = View.VISIBLE
-                        /* TODO("Self update text") */
                     }
 
                 }
